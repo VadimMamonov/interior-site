@@ -1,0 +1,41 @@
+.nav_section {
+    height: 25px;
+    margin-bottom: 70px;
+    padding-top: 33px;
+}
+
+.logo {
+    display: inline-block;
+    width: 127px;
+    height: 22;
+}
+
+.nav {
+    display: inline;
+    float: right;
+    vertical-align: top;
+}
+
+.nav_link {
+    margin-right: 57px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+
+
+
+.nav_link:hover {
+    border-bottom: 1px solid;
+    color: rgb(166, 166, 166);
+    opacity: 0.5;
+}
+
+
+.nav_link_last {
+    margin-right: 0px;
+}
