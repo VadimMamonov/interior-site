@@ -1,0 +1,27 @@
+.input {
+    display: block;
+    border: none;
+    padding-top: 50px;
+    border-bottom: 1px solid #000000;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.input-first {
+    padding-top: 60px;
+}
+
+@media (max-width: 767px) {
+    .input {
+        padding-top: 40px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .input-first {
+        padding-top: 70px;
+    }
+}
