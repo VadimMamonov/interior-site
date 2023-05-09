@@ -1,0 +1,124 @@
+
+.content {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.contacts {
+    padding: 150px 0;
+}
+
+.contacts-title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03px;
+}
+
+.contacts-block {
+    display: flex;
+    column-gap: 120px;
+}
+
+
+.contact-number::before,
+.contact-email::before {
+    content: "";
+    margin-bottom: 27px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-number::before {
+    background-image: url(../resources/img_phone.png);
+}
+
+.contact-email::before {
+    background-image: url(../resources/img_mail.png);
+}
+
+.number-link,
+.email-link {
+    height: 60px;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+}
+
+
+.number-link:hover,
+.email-link:hover {
+    border-bottom: 2px solid;
+    color: rgb(166, 166, 166);
+    opacity: 0.7;
+}
+
+@media (max-width: 1199px) {
+.contacts {
+        padding: 120px 0;
+    }
+
+    .content {
+        width: 100%;
+        padding: 0 17px 0 15px;
+    }
+
+    .number-link,
+    .email-link {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .contacts {
+            padding: 75px 0;
+        }
+
+    .contacts-title {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.03em;
+    }
+
+    .number-link,
+    .email-link {
+        width: 100%;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .contacts-block {
+        flex-direction: column;
+        margin-top: 23px;
+        row-gap: 23px;
+    }
+
+    .number-link::before {
+        margin-bottom: 25px;
+        margin-left: 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    .email-link {
+        margin-top: 0;
+    }
+
+    .email-link::before {
+        margin-left: 0;
+        margin-bottom: 23px;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+

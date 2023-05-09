@@ -1,0 +1,95 @@
+@import "header.css";
+@import "burger.css";
+@import "intro.css";
+@import "about.css";
+@import "projects.css";
+@import "services.css";
+@import "popup.css";
+@import "order.css";
+@import "reviews.css";
+@import "inputs.css";
+@import "gallery.css";
+@import "contacts.css";
+@import "footer.css";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #ffffff;
+}
+
+
+.contеnt {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+/* Блок описаниe */
+
+
+h1 {
+  /* padding-top: 128px; */
+  margin-bottom: 30px;
+  font-size: 60px;
+  color: #121212;
+  letter-spacing: -0.03em;
+}
+
+.img-services_last {
+  padding-bottom: 25.82px;
+}
+
+
+
+
+
+
+@media (max-width: 1199px) {
+  .contеnt {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+}
+
+.img-services_last {
+  padding-bottom: 15px;
+}
+
+
+@media (max-width: 767px) {
+  .contеnt {
+    padding-left: 13px;
+    padding-right: 11px;
+  }
+
+  h1 {
+    padding-top: 107px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .review-subtitle {
+    padding-bottom: 10px;
+  }
+
+  .img-services {
+    /* height: 240px; */
+    padding-bottom: 10px;
+  }
+
+
+}

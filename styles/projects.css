@@ -1,0 +1,134 @@
+.projects_title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.project-img {
+  width: 100%;
+  height: 450;
+  margin-bottom: 13px;
+}
+
+.project-name {
+  height: 41px;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 43px;
+  letter-spacing: -0.01em;
+  margin-bottom: 15px;
+  color: #121212;
+}
+
+.project-btn {
+  display: block;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 90px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.box-btn {
+  margin-bottom: 150px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+}
+
+.see-projects {
+  display: block;
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  font-size: 30px;
+  line-height: 41px;
+  border-radius: 5px;
+  color: #ad1818;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  transition: 0.5s;
+}
+
+.see-projects:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+@media (max-width: 1199px) {
+  .projects_title {
+    font-size: 17px;
+  }
+
+  .project-btn {
+    margin-bottom: 80px;
+  }
+
+  .project-btn_last {
+    margin-bottom: 100px;
+  }
+
+  .project-img {
+    object-fit: cover;
+  }
+
+  .project-name {
+    height: 34px;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    letter-spacing: -0.03em;
+  }
+
+  .project-btn {
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+  }
+
+  .box-btn {
+    margin-bottom: 97px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-name {
+    height: 24px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 11px;
+    letter-spacing: -0.03em;
+  }
+
+  .project-img {
+    margin-bottom: 20px;
+  }
+
+  .project-btn {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .projects_title {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+  }
+
+  .project-btn {
+    margin-bottom: 49px;
+  }
+
+  .project-btn_last {
+    margin-bottom: 60px;
+  }
+
+  .see-projects {
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    letter-spacing: -0.03em;
+  }
+}
